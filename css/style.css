@@ -1,0 +1,89 @@
+
+
+*{
+    font-family: 'Noto Sans', sans-serif;}
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 60px;
+    padding: 40px;
+}
+body{
+    background: url('../img/school.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+#form{
+    background-color: rgba(114, 104, 211, 0.8);
+    width: 200px;
+    float: left;
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+    margin: 120px 0px 0px 120px;
+}
+
+#tableDiv{
+    background-color: rgba(114, 104, 211, 0.8);
+    width: 800px;
+    float: right;
+    height: 120px;
+    text-align: center;
+    margin: 120px 150px 0px 0px;
+    padding-bottom: 130px;
+    padding-top: 50px;
+}
+input,select,button{
+    border-radius: 5px;
+}
+
+select,button{
+    width: 170px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+label{
+    color: white;
+    font-size: large;
+}
+
+table{
+    border-collapse: collapse;
+    border: white 2px solid;
+    margin: auto;
+    width: 90%;
+}
+
+tr,th,td{
+    border: 2px white solid;
+    color: white;
+    font-size: large;
+
+}
+th{
+    background-color: #1F1F1F;
+    font-weight: bold;
+
+}
+
+tr{
+    background-color: #3D3D3D;
+    ;
+}
+
+.clearBtn{
+    background:none;
+    border: none;
+    color: red;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
